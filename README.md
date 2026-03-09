@@ -24,6 +24,10 @@ The goal is not just to make the code work — but to model a real domain with p
 
 ---
 
+## Bonus Points: Shared and Collaborative Github Repository
+
+If you have a shared and collaborative repository, you get 2 bonus points. It needs to include regular commits and different branches for each student, or at least 2 pull requests.
+
 ## Domain Model
 
 ### Entities
