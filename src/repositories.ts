@@ -1,7 +1,7 @@
 import { Student } from "./domain/student/Student"
 import { Course  } from "./domain/course/Course"
 import { Enrollment } from "./domain/enrollment/Enrollment"
-import { StudentId, CourseId, EnrollmentId } from "./domain/types"
+import { StudentId, CourseId, EnrollmentId } from "./domain/type"
 
 export class StudentRepository {
   private store = new Map<StudentId, Student>()

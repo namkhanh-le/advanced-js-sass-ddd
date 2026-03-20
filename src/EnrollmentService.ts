@@ -2,7 +2,7 @@ import { Student } from "./domain/student/Student"
 import { Course  } from "./domain/course/Course"
 import { Enrollment } from "./domain/enrollment/Enrollment"
 import { StudentRepository, CourseRepository, EnrollmentRepository } from "./repositories"
-import { StudentId, CourseId, EnrollmentId, Result, Ok, Err, generateUUID } from "./domain/types"
+import { StudentId, CourseId, EnrollmentId, Result, Ok, Err, generateUUID } from "./domain/type"
 import { EnrollmentFailedEvent } from "./events/DomainEvents"
 import { eventBus } from "./observers/EventBus"
 

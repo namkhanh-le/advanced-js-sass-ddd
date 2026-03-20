@@ -1,4 +1,4 @@
-import { StudentId, CourseId, EnrollmentId } from "../domain/types";
+import { StudentId, CourseId, EnrollmentId } from "../domain/type";
 
 export type DomainEventType =
   | "StudentRegistered"

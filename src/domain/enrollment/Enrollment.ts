@@ -1,4 +1,4 @@
-import { EnrollmentId, StudentId, CourseId, makeEnrollmentId, generateUUID, Result, Ok, Err } from "../types"
+import { EnrollmentId, StudentId, CourseId, makeEnrollmentId, generateUUID, Result, Ok, Err } from "../type"
 import { StudentEnrolledEvent, StudentWithdrawnEvent, EnrollmentCompletedEvent } from "../../events/DomainEvents"
 import { eventBus } from "../../observers/EventBus"
 

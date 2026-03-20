@@ -11,7 +11,7 @@ import {
   Result,
   Ok,
   Err,
-} from "../types";
+} from "../type";
 import {
   CourseCreatedEvent,
   CourseCapacityChangedEvent,
